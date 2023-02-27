@@ -54,6 +54,11 @@ a{
   text-align: center;
   background-color: #ffffff36;
 }
+@media all and (max-width: 405px ){
+  .h1-header{
+    font-size: 2rem;
+  }
+}
 @media (max-width: 768px) {
   .top-header{
     min-height: 30vh;
@@ -95,7 +100,7 @@ h5{
 .references{
   margin: 5vh auto;
   min-height: 200px;
-  background-color: #212529;
+  background-color: #212529b6;
   text-align: center;
 }
 .sponsor-image{
@@ -107,6 +112,7 @@ h5{
   color:rgb(238, 174, 0);
   font-family: 'Montserrat';
   font-weight: 400;
+  margin-bottom: 5%;
 }
 
 .p-text{
@@ -119,4 +125,57 @@ h5{
   border:2px solid rgb(238, 174, 0);
   border-radius: 0%;
   background-color: white;
+}
+
+.button-price:hover{
+  border:2px solid black;
+  background-color: rgb(238, 174, 0);
+}
+
+/* Footer */
+
+.footer-main-div{
+  margin-top: 2%;
+  border: 1px solid #212529b6;
+  background-color: #212529b6;
+  height: 37vh;
+}
+
+.h1-footer{
+  text-align: center;
+  color:rgb(238, 174, 0);
+  font-family: 'Montserrat';
+  font-weight: 400;
+  margin-top: 1%;
+}
+
+.button-footer{
+  font-weight: 500;
+  margin: 2% auto;
+  color: black;
+  width: 15rem;
+  border:2px solid rgb(238, 174, 0);
+  border-radius: 0%;
+  background-color: white;
+}
+.button-footer:hover{
+  border:2px solid black;
+  background-color: rgb(238, 174, 0);
+}
+.a-css{
+  text-decoration: none;
+  color:black;
+}
+.copyrights{
+  color:white;
+  margin: 2% auto;
+}
+
+.fa-footer{
+  color: grey;
+  padding: 0 30px 0;
+}
+
+.fa-footer:hover{
+  color: rgb(238, 174, 0);
 }
